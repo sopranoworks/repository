@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.rusty-raven</groupId>
+    <artifactId>codebook-runtime-annotation-helper_2.13</artifactId>
+    <packaging>jar</packaging>
+    <description>codebook.runtime.annotation-helper</description>
+    <version>1.20.0-SNAPSHOT</version>
+    <name>codebook.runtime.annotation-helper</name>
+    <organization>
+        <name>com.rusty-raven</name>
+    </organization>
+    <url>https://github.com/RustyRaven/CodebookRuntime</url>
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/RustyRaven/CodebookRuntime</url>
+        <connection>https://github.com/RustyRaven/CodebookRuntime.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>OsamuTakahashi</id>
+            <name>Osamu Takahashi</name>
+            <url>https://github.com/OsamuTakahashi/</url>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.10</version>
+        </dependency>
+        <dependency>
+            <groupId>com.rusty-raven</groupId>
+            <artifactId>codebook-runtime_2.13</artifactId>
+            <version>1.20.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-reflect</artifactId>
+            <version>2.13.10</version>
+        </dependency>
+    </dependencies>
+</project>
